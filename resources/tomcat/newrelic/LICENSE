@@ -20,6 +20,16 @@ This product includes 'Apache Commons CLI', which is released under the followin
 
 ----------------------------------------------------------------
 
+This product includes 'Apache Commons Codec', which is released under the following license(s):
+    Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>
+
+----------------------------------------------------------------
+
+This product includes 'Apache Commons Logging', which is released under the following license(s):
+    Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>
+
+----------------------------------------------------------------
+
 This product includes 'GSON', which is released under the following license(s):
     Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>
 
@@ -32,6 +42,11 @@ This product includes 'Guava', which is released under the following license(s):
 
 This product includes 'HttpClient', which is released under the following license(s):
     Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>
+
+----------------------------------------------------------------
+
+This product includes 'JRegex', which is released under the following license(s):
+    BSD-3 <http://opensource.org/licenses/BSD-3-Clause>
 
 ----------------------------------------------------------------
 
@@ -70,7 +85,7 @@ This product includes 'SnakeYAML', which is released under the following license
 
 ----------------------------------------------------------------
 
-All other components of this product are: Copyright (c) 2010-2015 New Relic, Inc. All rights reserved.
+All other components of this product are: Copyright (c) 2010-2017 New Relic, Inc. All rights reserved.
 
 Certain inventions disclosed in this file may be claimed within patents owned or patent applications
 filed by New Relic, Inc. or third parties. Subject to the terms of this notice, New Relic grants you
