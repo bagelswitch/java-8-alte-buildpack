@@ -17,7 +17,7 @@
 
 # Kill script for use as the parameter of OpenJDK's -XX:OnOutOfMemoryError
 
-set -e
+# set -e
 
 echo "
 Process Status (Before)
@@ -33,9 +33,9 @@ Free Disk Space (Before)
 $(df -h)
 "
 
-pkill -3 -f .*-XX:OnOutOfMemoryError=.*killjava.*
+kill -3 30
 
-pkill -9 -f .*-XX:OnOutOfMemoryError=.*killjava.*
+kill -9 30
 
 echo "
 Process Status (After)
@@ -51,11 +51,11 @@ Free Disk Space (After)
 $(df -h)
 "
 
-set +e
+# set +e
 
 # Emit a metric
 
-echo "alert.oomkiller.$NEW_RELIC_APP_NAME:1|c" | nc -w 3 -u stats-util-dfw.wbx2.com 8125
+# echo "alert.oomkiller.$NEW_RELIC_APP_NAME:1|c" | nc -w 3 -u stats-util-dfw.wbx2.com 8125
 
 # Generate a sensu alert
 
