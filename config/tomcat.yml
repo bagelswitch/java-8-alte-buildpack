@@ -16,7 +16,7 @@
 # Configuration for the Tomcat container
 ---
 tomcat:
-  version: 7.0.69
+  version: 7.0.82
   repository_root: "{default.repository.root}/cf-tomcat/tomcat"
 lifecycle_support:
   version: 2.+
