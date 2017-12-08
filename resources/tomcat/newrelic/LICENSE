@@ -45,6 +45,11 @@ This product includes 'HttpClient', which is released under the following licens
 
 ----------------------------------------------------------------
 
+This product includes 'JAXB', which is released under the following license(s):
+    CDDL-1.0 <https://opensource.org/licenses/CDDL-1.0>
+
+----------------------------------------------------------------
+
 This product includes 'JRegex', which is released under the following license(s):
     BSD-3 <http://opensource.org/licenses/BSD-3-Clause>
 
